@@ -1,0 +1,162 @@
+[
+    {
+        "question": "What is Node.js?",
+        "answer": "Node.js is a runtime environment that allows you to run JavaScript on the server side. It is built on Chrome's V8 JavaScript engine.",
+        "level": "beginner"
+    },
+    {
+        "question": "What is the difference between `==` and `===`?",
+        "answer": "`==` checks for value equality with type coercion, while `===` checks for both value and type equality without type coercion.",
+        "level": "beginner"
+    },
+    {
+        "question": "What are callbacks in Node.js?",
+        "answer": "Callbacks are functions passed as arguments to other functions, and they are executed once the operation completes. They are commonly used for handling asynchronous operations in Node.js.",
+        "level": "beginner"
+    },
+    {
+        "question": "What is the role of the `package.json` file in Node.js?",
+        "answer": "The `package.json` file contains metadata about the project, such as its dependencies, scripts, version, and other configurations.",
+        "level": "beginner"
+    },
+    {
+        "question": "What is the purpose of the `require()` function in Node.js?",
+        "answer": "`require()` is used to load modules into a Node.js application. It can be used to include built-in modules, third-party libraries, or custom modules.",
+        "level": "beginner"
+    },
+    {
+        "question": "What is Express.js?",
+        "answer": "Express.js is a web framework built on top of Node.js. It simplifies routing, middleware management, and handling HTTP requests and responses.",
+        "level": "beginner"
+    },
+    {
+        "question": "How do you handle asynchronous operations in Node.js?",
+        "answer": "Asynchronous operations in Node.js are handled using callbacks, Promises, or async/await. These methods allow non-blocking execution, ensuring the app does not freeze while waiting for I/O operations to complete.",
+        "level": "intermediate"
+    },
+    {
+        "question": "What are Promises in Node.js?",
+        "answer": "A Promise is an object that represents the eventual completion (or failure) of an asynchronous operation. It is used to handle asynchronous code in a more readable way than callbacks.",
+        "level": "intermediate"
+    },
+    {
+        "question": "What is middleware in Express?",
+        "answer": "Middleware in Express is a function that has access to the request and response objects, as well as the next middleware function in the application's request-response cycle.",
+        "level": "intermediate"
+    },
+    {
+        "question": "What are the different types of middleware in Express?",
+        "answer": "Express middleware can be divided into three types: application-level middleware, router-level middleware, and error-handling middleware.",
+        "level": "intermediate"
+    },
+    {
+        "question": "What is the Event Loop in Node.js?",
+        "answer": "The event loop is a mechanism that allows Node.js to handle non-blocking I/O operations by offloading them to the system kernel whenever possible.",
+        "level": "intermediate"
+    },
+    {
+        "question": "What are streams in Node.js?",
+        "answer": "Streams are objects that allow reading or writing data continuously. There are four types of streams: Readable, Writable, Duplex, and Transform.",
+        "level": "intermediate"
+    },
+    {
+        "question": "How does Node.js handle concurrency?",
+        "answer": "Node.js uses a single-threaded event loop and non-blocking I/O to handle concurrency. It uses the event loop to offload tasks and process multiple requests concurrently.",
+        "level": "intermediate"
+    },
+    {
+        "question": "What is the use of the `fs` module in Node.js?",
+        "answer": "The `fs` (File System) module provides an API for interacting with the file system. It can be used for reading, writing, and modifying files.",
+        "level": "intermediate"
+    },
+    {
+        "question": "What are the benefits of using Node.js?",
+        "answer": "Node.js offers high performance (due to the V8 engine), asynchronous, non-blocking I/O, scalability, and the ability to use JavaScript for both client and server-side code.",
+        "level": "intermediate"
+    },
+    {
+        "question": "What is `cluster` module in Node.js?",
+        "answer": "The `cluster` module enables Node.js applications to take advantage of multi-core systems by spawning multiple processes (workers) that share the same server port.",
+        "level": "intermediate"
+    },
+    {
+        "question": "What is a REST API?",
+        "answer": "A REST API (Representational State Transfer) is a set of web services that allow communication between client and server using HTTP methods (GET, POST, PUT, DELETE).",
+        "level": "intermediate"
+    },
+    {
+        "question": "What is the purpose of `npm` in Node.js?",
+        "answer": "npm (Node Package Manager) is used to install, manage, and share dependencies for Node.js projects. It also provides a registry for publishing packages.",
+        "level": "intermediate"
+    },
+    {
+        "question": "What is CORS and how can you handle it in Node.js?",
+        "answer": "CORS (Cross-Origin Resource Sharing) is a security feature that restricts cross-origin HTTP requests. It can be handled in Node.js using the `cors` middleware.",
+        "level": "intermediate"
+    },
+    {
+        "question": "What is the difference between `process.nextTick()` and `setImmediate()` in Node.js?",
+        "answer": "`process.nextTick()` schedules a callback to be executed after the current operation completes, whereas `setImmediate()` schedules the callback to be executed after the event loop cycle finishes.",
+        "level": "advanced"
+    },
+    {
+        "question": "What is the `buffer` class in Node.js?",
+        "answer": "The `Buffer` class is used to handle raw binary data directly in memory. It is especially useful when dealing with binary data such as file I/O, image manipulation, and network protocols.",
+        "level": "advanced"
+    },
+    {
+        "question": "What is the difference between synchronous and asynchronous functions in Node.js?",
+        "answer": "Synchronous functions block the execution until they are completed, while asynchronous functions allow the program to continue execution without waiting for the operation to complete.",
+        "level": "advanced"
+    },
+    {
+        "question": "How does Node.js handle memory management?",
+        "answer": "Node.js uses the V8 garbage collector for memory management. It automatically allocates and deallocates memory when necessary, freeing up resources once they are no longer in use.",
+        "level": "advanced"
+    },
+    {
+        "question": "What is the `events` module in Node.js?",
+        "answer": "The `events` module provides an implementation of the EventEmitter class, which allows objects to emit named events and register listeners for those events.",
+        "level": "advanced"
+    },
+    {
+        "question": "What is the use of the `crypto` module in Node.js?",
+        "answer": "The `crypto` module provides cryptographic functionalities such as encryption, decryption, hashing, and HMAC (Hash-based Message Authentication Code).",
+        "level": "advanced"
+    },
+    {
+        "question": "What is the `child_process` module in Node.js?",
+        "answer": "The `child_process` module allows Node.js to spawn and interact with external processes, such as running shell commands or other programs from within your Node.js application.",
+        "level": "advanced"
+    },
+    {
+        "question": "How can you handle uncaught exceptions in Node.js?",
+        "answer": "Uncaught exceptions can be handled by listening to the `uncaughtException` event on the `process` object. However, it is recommended to use proper error handling with `try-catch` blocks or Promises.",
+        "level": "advanced"
+    },
+    {
+        "question": "Explain the concept of `async/await` in Node.js.",
+        "answer": "`async/await` is a syntactic sugar that allows handling asynchronous operations in a more synchronous way. It improves the readability of asynchronous code by making it look like blocking code.",
+        "level": "advanced"
+    },
+    {
+        "question": "What is Node.js' `libuv` library?",
+        "answer": "`libuv` is a multi-platform support library used by Node.js for handling asynchronous I/O operations such as file system access, DNS lookups, and network requests.",
+        "level": "advanced"
+    },
+    {
+        "question": "What is the difference between `process.env` and `__dirname` in Node.js?",
+        "answer": "`process.env` is used to access environment variables, while `__dirname` provides the absolute path of the directory containing the currently executing file.",
+        "level": "advanced"
+    },
+    {
+        "question": "What is the `Promise.all()` method?",
+        "answer": "`Promise.all()` takes an array of promises and returns a single promise that resolves when all the promises in the array have resolved, or rejects if any of them rejects.",
+        "level": "advanced"
+    },
+    {
+        "question": "What are the differences between Node.js and traditional web servers like Apache?",
+        "answer": "Node.js is event-driven and non-blocking, allowing it to handle many concurrent connections with a single thread. Apache is a multi-threaded web server that spawns a new thread for each incoming request.",
+        "level": "advanced"
+    }
+]
